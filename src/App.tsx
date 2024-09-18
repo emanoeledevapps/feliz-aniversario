@@ -10,6 +10,7 @@ import Image8 from './assets/img/img-8.jpg';
 import Image9 from './assets/img/img-9.jpg';
 import Image10 from './assets/img/img-10.jpg';
 import Image12 from './assets/img/img-12.jpg';
+import ImageMap from './assets/img/img-map.png';
 
 function App() {
 
@@ -89,7 +90,10 @@ function App() {
                         className='flex flex-col items-center justify-between gap-10 lg:gap-3 lg:flex-row'
                     >
                         <div className='flex flex-col justify-center w-full lg:w-[49%] gap-3'>
-                            <div className='w-full h-[350px] bg-green-600' />
+                            <img
+                                src={ImageMap}
+                                className='w-full h-[400px] object-cover border-[10px] border-white rounded-xl'
+                            />
                         </div>
 
                         <div className='flex flex-col items-center justify-center w-full lg:w-[49%] gap-3'>
