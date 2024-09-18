@@ -25,10 +25,10 @@ function App() {
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col w-full max-w-[1024px]'>
                     <div
-                        className='flex items-center justify-between'
+                        className='flex flex-col items-center justify-between gap-10 lg:flex-row lg:gap-0'
                     >
                         <div className='flex flex-col justify-center w-full lg:w-[50%] gap-3'>
-                            <h1 className='font-bold text-black text-5xl max-w-[70%]'>Feliz aniversário meu amor</h1>
+                            <h1 className='font-bold text-black text-5xl mb-10 lg:mb-0 lg:max-w-[70%] text-center lg:text-start'>Feliz aniversário meu amor</h1>
                             <h2
                                 className='text-black text-lg'
                             >
@@ -48,7 +48,7 @@ function App() {
 
             <section className='flex flex-col items-center bg-container-secondary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
-                    <h3 className='text-black font-bold text-center lg:max-w-[70%]'>
+                    <h3 className='text-black text-lg text-center lg:max-w-[70%]'>
                         Hoje é um dia especial em nosso calendário, pois finalmente chegou o seu dia. É um momento de ser feliz, de se alegrar e desejar coisas boas, afinal não são todos os dias que temos um motivo bom para ser comemorado
                     </h3>
                 </div>
@@ -86,7 +86,7 @@ function App() {
             <section className='flex flex-col items-center bg-container-secondary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
                     <div
-                        className='flex items-center justify-between gap-3'
+                        className='flex flex-col items-center justify-between gap-10 lg:gap-3 lg:flex-row'
                     >
                         <div className='flex flex-col justify-center w-full lg:w-[49%] gap-3'>
                             <div className='w-full h-[350px] bg-green-600' />
@@ -123,7 +123,7 @@ function App() {
             <section className='flex flex-col items-center bg-container-secondary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
                     <div
-                        className='flex items-center justify-between gap-3'
+                        className='flex flex-col items-center justify-between gap-10 lg:gap-3 lg:flex-row'
                     >
                         <div className='flex flex-col items-start justify-center w-full lg:w-[49%] gap-3'>
                             <h3 className='font-bold text-black text-5xl'>
@@ -137,7 +137,7 @@ function App() {
                         <div className='flex flex-col justify-center w-full lg:w-[49%] gap-3'>
                             <img
                                 src={Image12}
-                                className='w-full h-[600px] object-cover border-[10px] border-white rounded-xl'
+                                className='w-full h-[400px] lg:h-[600px] object-cover border-[10px] border-white rounded-xl'
                             />
                         </div>
                     </div>
@@ -147,12 +147,12 @@ function App() {
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
                     <div
-                        className='flex items-center justify-between gap-3'
+                        className='flex flex-col items-center justify-between gap-10 lg:gap-3 lg:flex-row'
                     >
                         <div className='flex flex-col justify-center w-full lg:w-[49%] gap-3'>
                             <img
                                 src={Image7}
-                                className='w-full h-[500px] object-cover border-[10px] border-white rounded-xl'
+                                className='w-full h-[300px] lg:h-[500px] object-cover border-[10px] border-white rounded-xl'
                             />
                         </div>
 
