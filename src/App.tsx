@@ -25,12 +25,12 @@ function App() {
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col w-full max-w-[1024px]'>
                     <div
-                        className='flex flex-col items-center justify-between gap-10 lg:flex-row lg:gap-0'
+                        className='flex flex-col items-center justify-between gap-10 lg:flex-row lg:gap-2'
                     >
                         <div className='flex flex-col justify-center w-full lg:w-[50%] gap-3'>
-                            <h1 className='font-bold text-black text-5xl mb-10 lg:mb-0 lg:max-w-[70%] text-center lg:text-start'>Feliz aniversário meu amor</h1>
+                            <h1 className='font-dancing-bold text-black text-6xl mb-10 lg:mb-0 lg:max-w-[80%] text-center lg:text-start'>Feliz aniversário meu amor</h1>
                             <h2
-                                className='text-black text-lg'
+                                className='text-black text-3xl font-dancing'
                             >
                                 Que Deus te abençoe sempre, que te ilumine e que você consiga realizar todos os seus sonhos!
                             </h2>
@@ -48,7 +48,7 @@ function App() {
 
             <section className='flex flex-col items-center bg-container-secondary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
-                    <h3 className='text-black text-lg text-center lg:max-w-[70%]'>
+                    <h3 className='text-black text-3xl font-dancing text-center lg:max-w-[70%]'>
                         Hoje é um dia especial em nosso calendário, pois finalmente chegou o seu dia. É um momento de ser feliz, de se alegrar e desejar coisas boas, afinal não são todos os dias que temos um motivo bom para ser comemorado
                     </h3>
                 </div>
@@ -93,15 +93,15 @@ function App() {
                         </div>
 
                         <div className='flex flex-col items-center justify-center w-full lg:w-[49%] gap-3'>
-                            <h3 className='font-bold text-black text-5xl'>Hoje estamos há 2.613km de distância</h3>
-                            <p className='text-black'>Não pude estar com você hoje, infelizmente. Por obra do destino acabou que essa data conciliou com inúmeros imprevistos em nossas vidas, mas mesmo assim estou perto de você em todos os lugares.</p>
+                            <h3 className='font-dancing-bold text-black text-6xl'>Hoje estamos há 2.613km de distância</h3>
+                            <p className='text-black font-dancing text-2xl'>Não pude estar com você hoje, infelizmente. Por obra do destino acabou que essa data conciliou com inúmeros imprevistos em nossas vidas, mas mesmo assim estou perto de você em todos os lugares.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
-                <h3 className='font-bold text-black text-center text-3xl mb-20'>Te acompanho desde 2020...</h3>
+                <h3 className='font-dancing-bold text-black text-center text-5xl mb-20'>Te acompanho desde 2020...</h3>
                 <div className='flex flex-wrap justify-center w-full max-w-[1024px]'>
                     <img
                         src={Image8}
@@ -126,10 +126,10 @@ function App() {
                         className='flex flex-col items-center justify-between gap-10 lg:gap-3 lg:flex-row'
                     >
                         <div className='flex flex-col items-start justify-center w-full lg:w-[49%] gap-3'>
-                            <h3 className='font-bold text-black text-5xl'>
+                            <h3 className='font-dancing-bold text-black text-6xl'>
                                 Obrigado por tudo!
                             </h3>
-                            <p className='text-black'>
+                            <p className='text-black font-dancing text-2xl'>
                                 Por mais que o aniversário seja seu, o presente é todo meu. Sempre está comigo em todos os momentos e, me incentiva todos os dias a ser uma pessoa melhor!
                             </p>
                         </div>
@@ -157,8 +157,8 @@ function App() {
                         </div>
 
                         <div className='flex flex-col items-center justify-center w-full lg:w-[49%] gap-3'>
-                            <h3 className='font-bold text-black text-5xl'>Seu Pai</h3>
-                            <p className='text-black'>Tenho certeza que ele está te dando um abraço lá de cima e, está muito orgulhoso da mulher que se tornou!</p>
+                            <h3 className='font-dancing-bold text-black text-6xl'>Seu Pai</h3>
+                            <p className='text-black font-dancing text-2xl'>Tenho certeza que ele está te dando um abraço lá de cima e, está muito orgulhoso da mulher que se tornou!</p>
                         </div>
                     </div>
                 </div>
@@ -166,11 +166,11 @@ function App() {
 
             <section className='flex flex-col items-center bg-container-secondary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col items-center w-full max-w-[1024px]'>
-                    <p className='text-black text-center text-lg'>
+                    <p className='text-black text-center text-2xl font-dancing'>
                         Este site é só um gesto simples para te passar uma mensagem
                     </p>
 
-                    <p className='font-bold text-center text-3xl'>
+                    <p className='font-dancing-bold text-center text-5xl'>
                         Que eu te amo e você é muito importante para mim! Feliz aniversário.
                     </p>
                 </div>
