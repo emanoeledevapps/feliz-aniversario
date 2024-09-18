@@ -11,34 +11,18 @@ import Image9 from './assets/img/img-9.jpg';
 import Image10 from './assets/img/img-10.jpg';
 import Image12 from './assets/img/img-12.jpg';
 import ImageMap from './assets/img/img-map.png';
-//import { useEffect } from 'react';
 
 function App() {
-    // useEffect(() => {
-    //     playMusic();
-    // }, []);
-
-    // function playMusic(){
-    //     document.getElementById('music')?.play()
-    // }
-
     return (
         <main className='flex flex-col h-screen overflow-y-auto'>
-            {/* <audio
+            <audio
                 src={LovelyMusic}
                 loop={true}
+                autoPlay
+                preload='auto'
                 className='hidden'
                 id='music'
-            /> */}
-
-            <iframe
-                src={LovelyMusic}
-                allow='autoplay'
-                className='hidden' 
-                id="iframeAudio"
-            >
-
-            </iframe>
+            />
 
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
                 <div className='flex flex-col w-full max-w-[1024px]'>
