@@ -11,16 +11,24 @@ import Image9 from './assets/img/img-9.jpg';
 import Image10 from './assets/img/img-10.jpg';
 import Image12 from './assets/img/img-12.jpg';
 import ImageMap from './assets/img/img-map.png';
+import { useEffect } from 'react';
 
 function App() {
+    useEffect(() => {
+        playMusic();
+    }, []);
+
+    function playMusic(){
+        document.getElementById('music')?.play()
+    }
 
     return (
         <main className='flex flex-col h-screen overflow-y-auto'>
             <audio
                 src={LovelyMusic}
-                autoPlay={true}
                 loop={true}
                 className='hidden'
+                id='music'
             />
 
             <section className='flex flex-col items-center bg-container-primary py-20 px-5 lg:px-0'>
